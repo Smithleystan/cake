@@ -38,21 +38,18 @@ hr{
 
 .back{
     background-image: url('../img/pexels-photo-24553.jpg');
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
 .back1{
     background-image: url('../img/kitchen-cake-backe-backing.jpg');
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
 .back2{
     background-image: url('../img/pexels-photo-132694.jpeg');
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -82,4 +79,29 @@ hr{
 }
 body{
     font-family: kreon;
+}
+
+@media screen and (min-width: 576px ) {
+    .back{
+        background-image: url('../img/pexels-photo-24553.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .back1{
+        background-image: url('../img/kitchen-cake-backe-backing.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .back2{
+        background-image: url('../img/pexels-photo-132694.jpeg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
 }
