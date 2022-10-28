@@ -1,0 +1,85 @@
+.test{
+    background-color: rgb(33, 45, 57, 0.8) ;
+    color : white
+}
+
+.contain{
+   
+    margin: 50rempx 0;
+ 
+}
+
+
+.imgMenu{
+    object-fit: contain;
+    width: 100%;
+
+}
+
+input{
+    width: 100%;
+    margin-bottom:10px ;
+    padding: 10px;
+}
+
+.resa{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    width: fit-content;
+}
+
+hr{
+    max-width: 20%;
+    margin: 0 auto;
+   color: black;
+   height: 10px;
+}
+
+.back{
+    background-image: url('../img/pexels-photo-24553.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.back1{
+    background-image: url('../img/kitchen-cake-backe-backing.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.back2{
+    background-image: url('../img/pexels-photo-132694.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.mainTitle{
+    background-color: #3e2c0a ;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: xx-large;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+.mainSentence{
+    color: #3e2c0a;
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+.bolder{
+    font-weight: bolder;
+}
+body{
+    font-family: kreon;
+}
