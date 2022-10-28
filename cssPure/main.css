@@ -42,14 +42,12 @@ hr{
     background-image: url('../img/pexels-photo-24553.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .back1{
     background-image: url('../img/kitchen-cake-backe-backing.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .back2{
@@ -57,7 +55,6 @@ hr{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 .mainTitle{
