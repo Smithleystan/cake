@@ -1,5 +1,7 @@
 .test{
-    background-color: rgb(33, 45, 57, 0.8) ;
+    background-color: rgb(33, 45, 57,0.8) ;
+    
+  
     color : white
 }
 
@@ -74,11 +76,19 @@ hr{
     font-size: xx-large;
     
 }
+
+
+.fsize{
+    font-weight: bold;
+    font-size: 280%;
+}
+
 .bolder{
     font-weight: bolder;
 }
 body{
     font-family: kreon;
+    color: #333;
 }
 
 @media screen and (min-width: 576px ) {
