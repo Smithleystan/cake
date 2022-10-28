@@ -99,6 +99,11 @@ body{
 
 }
 
+.fixed{
+    position: fixed;
+    width: 100%;
+    top : 0;
+}
 @media screen and (min-width: 576px ) {
     .back{
         background-image: url('../img/pexels-photo-24553.jpg');
