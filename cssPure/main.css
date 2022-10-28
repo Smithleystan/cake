@@ -42,12 +42,14 @@ hr{
     background-image: url('../img/pexels-photo-24553.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .back1{
     background-image: url('../img/kitchen-cake-backe-backing.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .back2{
@@ -55,6 +57,7 @@ hr{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .mainTitle{
@@ -89,6 +92,14 @@ hr{
 body{
     font-family: kreon;
     color: #333;
+}
+
+.bottomColor{
+    background-color: #3e2c0a ;
+    color: antiquewhite;
+    font-weight: bolder;
+
+
 }
 
 @media screen and (min-width: 576px ) {
