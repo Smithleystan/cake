@@ -40,7 +40,7 @@
       </nav> 
    </header>
 
-      <main class="text-center" >
+      <main class="text-center" data-bs-target="#navbarNav" data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
          
         <section class="back2 row align-items-center">
             <div class="col">
@@ -173,56 +173,63 @@
                 <div class="row row-cols-sm-2 mt-5">
                     <div>
                         <div class="row pt-5 ">
-                            <div class="col ">
+                            <div class="col price ">
                                 <figure><img class="imgMenu border border-5 border-light" src="./img/menu/cheesecake-speculoos.jpg" alt=""></figure>
+                                <figcaption class="rounded-pill ">6€90</figcaption>
                             </div>
                             <div class="col">
                             <div class="text-start">
                                 <h1>Menu Cheesecake</h1>
                                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dignissimos delectus officiis quibusdam temporibus ullam facilis, </div>
-                                <div>Plus d'info</div>
+                                <div class="infoMenu">Plus d'info</div>
                             </div>
                             </div>                 
                     </div>
                     </div>
                     <div>
                         <div class="row mt-5">
-                            <div class="col">
+                            <div class="col price">
                                 <figure><img class="imgMenu border border-5 border-light" src="./img/menu/muffin-myrtille.jpg" alt=""></figure>
+                                <figcaption class="rounded-pill bg-info">5€90</figcaption>
                             </div>
-                            <div class="col">
+                            <div class="col ">
                             <div class="text-start">
                                 <h1>Menu Muffins</h1>
                                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dignissimos delectus officiis quibusdam temporibus ullam facilis, </div>
-                                <div>Plus d'info</div>
+                                <div class="infoMenu">Plus d'info</div>
+                                
                             </div>
                             </div>               
                     </div>
                     </div>
                     <div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col price">
                                 <figure><img class="imgMenu border border-5 border-light" src="./img/menu/cookies-chocolat.jpg" alt=""></figure>
+                                <figcaption class="rounded-pill bg-success">4€90</figcaption>
                             </div>
-                            <div class="col">
+                            <div class="col ">
                             <div class="text-start">
                                 <h1>Menu Cookies</h1>
                                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dignissimos delectus officiis quibusdam temporibus ullam facilis, </div>
-                                <div>Plus d'info</div>
+                                <div class="infoMenu">Plus d'info</div>
+                               
                             </div>
                             </div>                  
                     </div>
                     </div>
                     <div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col price">
                                 <figure><img class="imgMenu border border-5 border-light" src="./img/menu/big-menu.jpg" alt=""></figure>
+                                <figcaption class="rounded-pill">9€90</figcaption>
                             </div>
                             <div class="col">
                             <div class="text-start">
                                 <h1>Le Big Menu</h1>
                                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dignissimos delectus officiis quibusdam temporibus ullam facilis, </div>
-                                <div>Plus d'info</div>
+                                <div class="infoMenu">Plus d'info</div>
+                                
                             </div>
                             </div>                 
                         </div>
@@ -240,60 +247,64 @@
                 <div class="col width"></div>
             </div>
             
-            <div class="row text-start p-5 m-5">
-                <div class="col-md">
-                    <div>Remplissez le formulaire pour votre reservation (Tous les champs sont obligatoires)</div>
-
-                    <form  action="">
-                        <div class="row">
-                            <div class="col-md">
-                                <label for="imputFirstName" ></label>
-                                <input type="text" placeholder="Prénom">
-                            </div>
-                            <div class="col-md">
-                                <label for="imputFirstName" ></label>
-                                <input type="text" placeholder="Nom">
-                            </div>
+            <div class="row justify-content-end text-center">
+                <div class="col">
+                    <div class="row text-start p-5 m-5">
+                        <div class="col-md">
+                            <div>Remplissez le formulaire pour votre reservation (Tous les champs sont obligatoires)</div>
+        
+                            <form  action="">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <label for="imputFirstName" ></label>
+                                        <input type="text" placeholder="Prénom">
+                                    </div>
+                                    <div class="col-md">
+                                        <label for="imputFirstName" ></label>
+                                        <input type="text" placeholder="Nom">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md">
+                                        <label for="imputFirstName" ></label>
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                    <div class="col-md">
+                                        <label for="imputFirstName" ></label>
+                                        <input type="text" placeholder="Téléphone">                                     
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md">
+                                        <label for="imputFirstName" ></label>
+                                        <input type="text" placeholder="Jour de réservation">
+                                    </div>
+                                    <div class="col-md">
+                                        <label for="imputFirstName" ></label>
+                                        <input type="text" placeholder="Nombre de personnes">
+                                    </div>
+                                </div>
+        
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, sint? Suscipit repellat quae et doloremque, perferendis esse accusantium quam cupiditate recusandae temporibus tempore dolores consequuntur officiis, fuga nam voluptate placeat!
+        
+                            <div class="resa">Je réserve</div>
+                            
+                          </form>
+                                
                         </div>
-                        <div class="row">
-                            <div class="col-md">
-                                <label for="imputFirstName" ></label>
-                                <input type="text" placeholder="Email">
-                            </div>
-                            <div class="col-md">
-                                <label for="imputFirstName" ></label>
-                                <input type="text" placeholder="Téléphone">                                     
-                            </div>
+                        <div class="col-md ">
+                            <div><span><i class="fa-solid fa-location-dot"></i></span>Horaires</div>
+                            <div>Petit dej</div>
+                            <div>Lun au Ven: 11h-11h30</div>
+                            <div>Goûter</div>
+                            <div>Lun au Ven: 15h30-16h</div>
+                            <div><span><i class="fa-regular fa-clock"></i></span>Adresse</div>
+                            <div>Rue Denis PApin-59650 Villeneuve d'Ascq</div>
+                            <div><span><i class="fa-solid fa-mobile-screen"></i></span>Contact</div>
+                            <div>Email: cooking@cakes3000.fr</div>
+                            <div>tel: 0123456789</div>
                         </div>
-                        <div class="row">
-                            <div class="col-md">
-                                <label for="imputFirstName" ></label>
-                                <input type="text" placeholder="Jour de réservation">
-                            </div>
-                            <div class="col-md">
-                                <label for="imputFirstName" ></label>
-                                <input type="text" placeholder="Nombre de personnes">
-                            </div>
-                        </div>
-
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, sint? Suscipit repellat quae et doloremque, perferendis esse accusantium quam cupiditate recusandae temporibus tempore dolores consequuntur officiis, fuga nam voluptate placeat!
-
-                    <div class="resa">Je réserve</div>
-                    
-                  </form>
-                        
-                </div>
-                <div class="col-md ">
-                    <div><span><i class="fa-solid fa-location-dot"></i></span>Horaires</div>
-                    <div>Petit dej</div>
-                    <div>Lun au Ven: 11h-11h30</div>
-                    <div>Goûter</div>
-                    <div>Lun au Ven: 15h30-16h</div>
-                    <div><span><i class="fa-regular fa-clock"></i></span>Adresse</div>
-                    <div>Rue Denis PApin-59650 Villeneuve d'Ascq</div>
-                    <div><span><i class="fa-solid fa-mobile-screen"></i></span>Contact</div>
-                    <div>Email: cooking@cakes3000.fr</div>
-                    <div>tel: 0123456789</div>
+                    </div>
                 </div>
             </div>
         </section> 

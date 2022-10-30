@@ -110,6 +110,39 @@ body{
     border-top: 5px solid #3e2c0a;
     margin: 0 auto;
 }
+
+
+.test1{
+    height: 100vh;
+    width: 100vw;
+    border: 5px solid blue;
+    background-color: red;
+}
+
+.infoMenu{
+    background-color: #ff0077;
+    width: fit-content;
+    padding: 0.5rem;
+}
+
+
+.price{
+    position: relative;
+
+}
+
+.price figcaption{
+    position: absolute;
+    background-color: black;
+    top :0;
+    padding: 2rem;
+    
+
+}
+.bgcolor-green{
+   background-color: 
+}
+
 @media screen and (min-width: 576px ) {
     .back{
         background-image: url('../img/pexels-photo-24553.jpg');
