@@ -103,6 +103,7 @@ body{
     position: fixed;
     width: 100%;
     top : 0;
+    z-index: 1;
 }
 
 .width{
@@ -139,9 +140,16 @@ body{
     
 
 }
-.bgcolor-green{
-   background-color: 
+
+.price figcaption{
+    position: absolute;
+    background-color: black;
+    top :0;
+    padding: 1rem;
+    
+
 }
+
 
 @media screen and (min-width: 576px ) {
     .back{
@@ -165,5 +173,15 @@ body{
         background-position: center;
         height: 100vh;
     }
+    .price figcaption{
+        
+        top :0;
+        padding: 2rem;
+        
+
+    }
+
+   
+            
     
 }
