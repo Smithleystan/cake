@@ -135,20 +135,13 @@ body{
 .price figcaption{
     position: absolute;
     background-color: black;
-    top :0;
-    padding: 2rem;
-    
-
-}
-
-.price figcaption{
-    position: absolute;
-    background-color: black;
-    top :0;
+    top :-15px;
     padding: 1rem;
+    left: 0;
     
 
 }
+
 
 
 @media screen and (min-width: 576px ) {
@@ -175,8 +168,9 @@ body{
     }
     .price figcaption{
         
-        top :0;
+        top :-15px;
         padding: 2rem;
+        left: 0;
         
 
     }
