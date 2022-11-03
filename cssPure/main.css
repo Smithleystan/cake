@@ -142,6 +142,11 @@ body{
 
 }
 
+.nav-link.active{
+    background-color: #ff0077;
+    border-radius: 5px;
+}
+
 
 
 @media screen and (min-width: 576px ) {
